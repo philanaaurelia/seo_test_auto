@@ -9,7 +9,7 @@ class InternManager:
             return True
         return False
 
-    def remove_intern(self, name):
+    def remove_intern(self, name ):
         if name in self.interns:
             self.interns.remove(name)
             return True
